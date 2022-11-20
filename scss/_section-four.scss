@@ -1,0 +1,43 @@
+.section-four-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+
+
+}
+
+.section-four-body .field {
+  
+  &:not(:first-child) {
+
+    margin-top: 3rem;
+  }
+}
+
+.section-four .field-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-four .field-panel {
+  margin-left: auto;
+  margin-right: auto;
+
+  &:not(:first-child) {
+
+    margin-top: 2rem;
+  }
+
+}
+
+.section-four .panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-four .panel-body {
+  display: none;
+  left: 0rem;
+  z-index: 9999;
+}
+

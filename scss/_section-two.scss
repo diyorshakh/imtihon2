@@ -1,0 +1,52 @@
+.section-two-card {
+  width: 100%;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.section-two-card {
+
+  &:first-child,
+  &:nth-child(3) {
+
+    flex-direction: row-reverse;
+  }
+
+}
+
+.section-two-card .card-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.section-two-card .pattern {
+  max-width: 100%;
+  position: absolute;
+
+  &-first,
+  &-third {
+
+    right: -2rem;
+  }
+
+  &-second, 
+  &-third {
+
+    top: 0rem;
+  }
+
+  &-first {
+
+    bottom: 0rem;
+  }
+
+  &-second {
+    left: -2rem;
+  }
+
+}
+
+.section-two-btn {
+  margin-top: 2rem;
+}

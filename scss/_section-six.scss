@@ -1,0 +1,63 @@
+.section-six {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.section-six-header {
+  position: relative;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.section-six-header .img {
+  max-width: 100%;
+  position: relative;
+  z-index: -2;
+}
+
+.section-six-header .location {
+
+    display: block;
+    max-width: 700px;
+    padding: 2rem 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+    &-first {
+      top: 4em;
+      left: 6rem;
+    }
+
+    &-second {
+      top: 3rem;
+      left: 15.5rem;
+    }
+
+    &-third {
+      top: 12rem;
+      left: 30rem;
+    }
+
+    &-fourth {
+      top: 6rem;
+      left: 33rem;
+    }
+
+}
+
+.section-six-body {
+  margin-top: 4rem;
+  text-align: center;
+
+
+}
+
+  
+  &-btn {
+
+    margin-top: 2rem;
+  }
+
+
