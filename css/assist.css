@@ -1,6 +1,6 @@
 .menu-bar-menu{
     position: relative;
-    right: 400px;
+    right: 200px;
     top: 2.5px;
 }
 
@@ -24,4 +24,9 @@
 .section-four-heading
 {
     font-size: 48px;
+}
+
+.menu-link:hover
+{
+    color: #FCB72B;
 }

@@ -891,7 +891,6 @@ h4 {
   .section-one {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -956,12 +955,8 @@ h4 {
 
 @media screen and (min-width: 62rem) {
   .section-one-header .aligned-icons {
-    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[3];
         grid-template-rows: repeat(3, 1fr);
-    -webkit-box-align: start;
-        -ms-flex-align: start;
             align-items: start;
     height: 100%;
   }
@@ -969,11 +964,8 @@ h4 {
 
 @media screen and (min-width: 90rem) {
   .section-one-header .aligned-icons {
-    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-    -webkit-column-gap: 2rem;
             column-gap: 2rem;
     height: auto;
   }
@@ -1001,7 +993,6 @@ h4 {
   .section-one-body {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
@@ -1191,7 +1182,6 @@ h4 {
   .section-three .body {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
@@ -1217,7 +1207,6 @@ h4 {
   .section-four-body .field {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
